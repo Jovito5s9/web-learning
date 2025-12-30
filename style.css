@@ -1,0 +1,18 @@
+body{
+    background-color: rgb(84, 84, 84);
+    font-family: Arial, sans-serif;
+}
+.titulo{
+    color: rgb(32, 0, 0);
+    font-size: 36px;
+}
+.texto{
+    color: rgb(22, 22, 22);
+    font-size: 24px;
+}
+.cachorro{
+    width: 400px;
+}
+.link{
+    color: rgb(150, 150, 0);
+}
