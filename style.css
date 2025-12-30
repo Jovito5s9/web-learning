@@ -37,5 +37,26 @@ button{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    margin: 0;    
+    margin: 0;
+}
+.centralizar form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+}
+.centralizar p{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+}
+.centralizar button{
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
 }
