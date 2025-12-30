@@ -14,5 +14,13 @@ body{
     width: 400px;
 }
 .link{
-    color: rgb(150, 150, 0);
+    color: rgb(150, 120, 0);
+    font-size: 20px;
+}
+button{
+    background-color: rgb(106, 105, 105);
+}
+#opnião{
+    background-color: rgb(154, 154, 154);
+    border: 1px solid rgb(0, 0, 0);
 }
