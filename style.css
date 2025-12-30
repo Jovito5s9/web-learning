@@ -24,3 +24,18 @@ button{
     background-color: rgb(154, 154, 154);
     border: 1px solid rgb(0, 0, 0);
 }
+#email{
+    background-color: rgb(154, 154, 154);
+    border: 1px solid rgb(0, 0, 0);
+}
+#password{
+    background-color: rgb(154, 154, 154);
+    border: 1px solid rgb(0, 0, 0);
+}
+.centralizar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;    
+}
