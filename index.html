@@ -13,8 +13,17 @@
             <h1 class="titulo">O cachorro caramelo</h1>
         </header>
         <main>
-            <article>
-                <h2 class="titulo">Você já viu um cachorro caramelo?</h2>
+            <nav>
+                <h2 class="titulo">sumario</h2>
+                <ol>
+                    <li><a class="texto" href="#introdução">introdução</a></li>
+                    <li><a class="texto" href="#curiosidades">curiosidades</a></li>
+                    <li><a class="texto" href="#e você?">sua participação</a></li>
+                </ol>
+            </nav>
+            <br>
+            <article id="introdução">
+                <h3 class="titulo">Você já viu um cachorro caramelo?</h2>
                 <p class="texto">É um cão sem raça definida (SRD) brasileiro, famoso por sua pelagem cor de caramelo e por ser um ícone cultural e popular do Brasil,</p>
                 <p class="texto">Ciêntificamente conhecidos como Canis Lupos, mas mundialmente como os melhores amigos do homem,<br> os cachorros trazem alegria, mas...</p>
                 <p class="texto">Os caramelos são aqueles que conquistaram o coração de todos:</p>
@@ -22,7 +31,8 @@
                 <img class="cachorro" src="caramelo.jpg" alt="imagem de um caramelo">
                 <figcaption>O famoso cachorro caramelo</figcaption>
                 </figure>
-                <p class="titulo"><br>Curiosidades sobre os caramelos:</p>
+                <br>
+                <p id="curiosidades" class="titulo">Curiosidades sobre os caramelos:</p>
                 <ul class="texto">
                     <li>São amigáveis e leais.</li>
                     <li>Não é uma raça específica.</li>
@@ -33,7 +43,7 @@
                 <br>
             </article>
             <form>
-                <label class="texto" for="opnião">Sua opnião sobre os caramelos</label>
+                <label id="e você?" class="texto" for="opnião">Sua opnião sobre os caramelos</label>
                 <input type="text" id="opnião"name="opnião">
                 <button>Enviar</button>
             </form>
