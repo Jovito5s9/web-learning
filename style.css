@@ -17,8 +17,18 @@ body{
     color: rgb(150, 120, 0);
     font-size: 18px;
 }
+a:hover{
+    color: rgb(0, 127, 127);
+}
 button{
     background-color: rgb(106, 105, 105);
+}
+button:hover{
+    background-color: rgb(186, 186, 186);
+}
+button:active{
+    background-color: rgb(71, 71, 71);
+    color: rgb(255, 255, 255);
 }
 #opnião{
     background-color: rgb(154, 154, 154);
