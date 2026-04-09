@@ -1,31 +1,15 @@
-let nome = "Jovito"
-let idade = 19
-let alto = true
-let lista = ["the", "famous", "caramel", "dog"]
+const ultima_opniao = document.querySelector("#ultima_opnião")
+const button = document.querySelector("#button_opnião")
+const input = document.querySelector("#opnião")
 
-const multiplicar = (a,b) => a * b
-
-const obj = {
-    nome: "",
-    idade: 0,
-    alto: false,
-    lista: []
+if (button) {
+    button.addEventListener("click", () => {
+        if (input.value.trim() === "") {
+            alert("Por favor, insira uma opnião antes de enviar.")
+            ultima_opniao.textContent = "sua opnião importa também!"
+            return
+        }
+        ultima_opniao.textContent = `Sua opnião é: ${input.value}`
+        input.value = ""
+    })
 }
-
-obj.nome = nome
-obj.idade = idade
-obj.alto = alto
-obj.lista = lista
-
-console.log(obj.nome)
-console.log(obj.idade)
-console.log(obj.alto)
-console.log(obj.lista)
-
-lista.forEach(palavra => console.log(palavra))
-
-function soma(a,b){
-    return a + b
-}
-console.log(soma(0,1))
-console.log(multiplicar(12,89.9))
